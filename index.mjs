@@ -3,7 +3,7 @@ import http from 'http';
 import nodeStatic from 'node-static';
 
 
-const bare =  new Server('/bare/', '');
+const bare = new Server('/bare/');
 const serve = new nodeStatic.Server('Site/');
 const server = http.createServer();
 
